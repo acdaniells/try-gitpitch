@@ -1,10 +1,10 @@
-[![GitPitch Badge](gitpitch-badge)](talk-base-url)
+[![GitPitch Badge](https://img.shields.io/badge/gitpitch-slide%20show-brightgreen.svg)](https://gitpitch.com/acdaniells/try-gitpitch)
 
 # Try GitPitch
 
 This project is for trying out the various free features of the *GitPitch* markdown presentation service used by developers for creating modern slide shows. This service extends the capabilities of the hugely popular and powerful `Reveal.js` HTML presentation framework and combines it with the distributed and collaborative file management capabilities of *Git*.
 
-The following sections show how to get started with the project and provide a quick overview of the documentation available on [gitpitch.com](gitpitch-url).
+The following sections show how to get started with the project and provide a quick overview of the documentation available on [gitpitch.com](https://gitpitch.com).
 
 ## Getting Started
 
@@ -84,7 +84,7 @@ By using a combination of horizontal and vertical slide delimiters you can custo
 For more detailed documentation please use the links below.
 
 * [My *GitPitch* documentation overview for free features](docs/GITPITCH.md)
-* [The *GitPitch* official documentation](gitpitch-docs-url)
+* [The *GitPitch* official documentation](https://gitpitch.com/docs)
 
 ## Sample Presentations
 
@@ -117,21 +117,11 @@ This repository currently contains two sets of sample presentations located in t
 
 | Name     | Slide Show | Documentation |
 |:-------- |:----------:|:-------------:|
-| Simple   | [![GitPitch Badge](gitpitch-badge)](talk-simple-url) | [![Docs Badge](docs-badge)](talks/simple/README.md) |
-| Advanced | [![GitPitch Badge](gitpitch-badge)](talk-advanced-url) | [![Docs Badge](docs-badge)](talks/advanced/README.md) |
+| Simple   | [![GitPitch Badge](https://img.shields.io/badge/gitpitch-slide%20show-brightgreen.svg)](https://gitpitch.com/acdaniells/try-gitpitch/master?p=talks/simple) | [![Docs Badge](https://img.shields.io/badge/try--gitpitch-docs-blueviolet.svg)](talks/simple/README.md) |
+| Advanced | [![GitPitch Badge](https://img.shields.io/badge/gitpitch-slide%20show-brightgreen.svg)](https://gitpitch.com/acdaniells/try-gitpitch/master?p=talks/advanced) | [![Docs Badge](https://img.shields.io/badge/try--gitpitch-docs-blueviolet.svg)](talks/advanced/README.md) |
 
 # License
 
-This project by Andrew Daniells is licensed under the [Creative Commons Attribution 4.0 International License](cc-by-4.0-url).
+This project by Andrew Daniells is licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
 
-![cc-by-4.0 License](cc-by-4.0-badge)
-
-[docs-badge]: https://img.shields.io/badge/try--gitpitch-docs-blueviolet.svg
-[gitpitch-badge]: https://img.shields.io/badge/gitpitch-slide%20show-brightgreen.svg
-[gitpitch-docs]: https://gitpitch.com/docs
-[gitpitch-url]: https://gitpitch.com
-[talk-base-url]: https://gitpitch.com/acdaniells/try-gitpitch
-[talk-simple-url]: https://gitpitch.com/acdaniells/try-gitpitch/master?p=talks/simple
-[talk-advanced-url]: https://gitpitch.com/acdaniells/try-gitpitch/master?p=talks/advanced
-[cc-by-4.0-url]: https://creativecommons.org/licenses/by/4.0/
-[cc-by-4.0-badge]: https://mirrors.creativecommons.org/presskit/buttons/80x15/svg/by.svg
+![cc-by-4.0 License](https://mirrors.creativecommons.org/presskit/buttons/80x15/svg/by.svg)
