@@ -5,5 +5,3 @@
 ## Try GitPitch
 ### An advanced presentation
 @snapend
-
----?image=assets/img/background-blue.jpg&size=cover

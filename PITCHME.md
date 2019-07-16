@@ -1,15 +1,27 @@
-@title[GitPitch Sample Presentations]
+@title[Try GitPitch]
 
 @snap[north span-100]
-### GitPitch Sample Presentations
+## Try @color[#e49436](Git)Pitch
+### A collection of sample presentations
 @snapend
 
-@ul[text-07](false)
-- [Simple Presentation](https://gitpitch.com/acdaniells/try-gitpitch/master?p=talks/simple) - A simple sample presentation
-- [Advanced Presentation](https://gitpitch.com/acdaniells/try-gitpitch/master?p=talks/advanced) - An advanced sample presentation
-@ulend
-
-@snap[south text-07]
+@snap[south span-60 text-07]
 @fa[twitter] @acdaniells
 @fa[github] @acdaniells
+@snapend
+
+---
+@title[GitPitch Sample Presentations]
+
+@snap[west span-50]
+## @color[#e49436](Git)Pitch
+### Sample Presentations
+@snapend
+
+@snap[north-east span-50]
+@box[bg-purple text-white]([Simple](https://gitpitch.com/acdaniells/try-gitpitch/master?p=talks/simple)#A very simple sample presentation.)
+@snapend
+
+@snap[east span-50]
+@box[bg-orange text-white]([Advanced](https://gitpitch.com/acdaniells/try-gitpitch/master?p=talks/advanced)#A complete demonstration of all the free GitPitch features.)
 @snapend

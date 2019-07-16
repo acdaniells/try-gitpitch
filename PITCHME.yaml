@@ -21,23 +21,10 @@ theme-override: assets/css/PITCHME.css
 layout: center
 
 #
-# Logo Setting
-# Doc: https://gitpitch.com/docs/settings/logo
-#
-logo: assets/img/logo.png
-logo-position: top-left
-
-#
 # Transition Setting
 # Doc: https://gitpitch.com/docs/settings/transition
 #
 transition: none
-
-#
-# Title Setting
-# Doc: https://gitpitch.com/docs/settings/title
-#
-title: "GitPitch Sample Presentations"
 
 #
 # Footnote Setting
