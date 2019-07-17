@@ -388,3 +388,30 @@ mathjax : TeX-MML-AM_HTMLorMML-full
 ```
 
 See details on creating formulas using this plug-in [here](https://gitpitch.com/docs/rich-media-features/math-formulas).
+
+## Miscellaneous
+
+There are no limits to the number of slide show presentations you can create within a single branch in a *Git* repository.
+
+All slide show presentations found within a sub-directory below root within the branch are made available at the following URL:
+
+```
+https://gitpitch.com/$USER/$REPO/$BRANCH?p=$DIRECTORY
+```
+
+> Substitute your *GitHub* account name, repository, branch and directory for $USER, $REPO, $BRANCH and $DIRECTORY respectively.
+
+The value of $DIRECTORY must identify a directory path within the branch that contains a `PITCHME.md` markdown file.
+
+```
+.
+├── PITCHME.md
+├── PITCHME.yaml
+└── talks/
+    ├── advanced/
+    │   ├── PITCHME.md
+    │   └── PITCHME.yaml
+    └── simple/
+        ├── PITCHME.md
+        └── PITCHME.yaml
+```

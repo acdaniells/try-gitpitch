@@ -2,17 +2,15 @@
 
 # Try GitPitch
 
-This project is for trying out the various free features of the *GitPitch* markdown presentation service used by developers for creating modern slide shows. This service extends the capabilities of the hugely popular and powerful `Reveal.js` HTML presentation framework and combines it with the distributed and collaborative file management capabilities of *Git*.
+This project is for trying out the various free features of the *GitPitch* markdown presentation service. This service is often used by developers for creating modern slide shows.
 
-The following sections show how to get started with the project and provide a quick overview of the documentation available on [gitpitch.com](https://gitpitch.com).
+*GitPitch* extends the capabilities of the hugely popular and powerful `Reveal.js` HTML presentation framework and combines it with the distributed and collaborative file management capabilities of *Git*.
 
 ## Getting Started
 
 To get started with this project an account on *GitHub* is required.
 
-### Fork this Repository
-
-Create a fork of this repository.
+<span style="font-size:1.2em;">**Step 1:** Fork this Repository</span>
 
 Forking this repository will create a new `try-gitpitch` repository under your own *GitHub* account. Within your new repository you will find the basic file structure for a *GitPitch* slide show presentation:
 
@@ -20,16 +18,16 @@ Forking this repository will create a new `try-gitpitch` repository under your o
 .
 ├── PITCHME.md
 ├── PITCHME.yaml
-└── assets
-    ├── css
+└── assets/
+    ├── css/
     │   └── PITCHME.css
-    └── img
+    └── img/
         └── *.{jpg, png, gif}
 ```
 
 Only a `PITCHME.md` markdown file is required to create a *GitPitch* slide show presentation. This is the file where you add the markdown content for your slides. Optional files, such as `PITCHME.yaml` and `PITCHME.css` can be added to activate custom settings and styles for your slide show.
 
-### View the Slide Show
+<span style="font-size:1.2em;">**Step 2:** View the Slide Show</span>
 
 Following a fork of the repository a `PITCHME.md` markdown file will be found in your new repository. This means that your first *GitPitch* slide show is immediately available at the following URL:
 
@@ -88,39 +86,14 @@ For more detailed documentation please use the links below.
 
 ## Sample Presentations
 
-There are no limits to the number of slide show presentations you can create within a single branch in a *Git* repository.
-
-All slide show presentations found within a sub-directory below root within the branch are made available at the following URL:
-
-```
-https://gitpitch.com/$USER/$REPO/$BRANCH?p=$DIRECTORY
-```
-
-> Substitute your *GitHub* account name, repository, branch and directory for $USER, $REPO, $BRANCH and $DIRECTORY respectively.
-
-The value of $DIRECTORY must identify a directory path within the branch that contains a `PITCHME.md` markdown file.
-
-```
-.
-├── PITCHME.md
-├── PITCHME.yaml
-└── talks
-    ├── advanced
-    │   ├── PITCHME.md
-    │   └── PITCHME.yaml
-    └── simple
-        ├── PITCHME.md
-        └── PITCHME.yaml
-```
-
-This repository currently contains two sets of sample presentations located in the talks folder. The links to the corresponding slide show and documentation are given in the table below.
+This repository currently contains two sets of sample presentations located in the `talks` directory. The link to the corresponding slide show and documentation for each of these is given in the table below.
 
 | Name     | Slide Show | Documentation |
 |:-------- |:----------:|:-------------:|
-| Simple   | [![GitPitch Badge](https://img.shields.io/badge/gitpitch-slide%20show-brightgreen.svg)](https://gitpitch.com/acdaniells/try-gitpitch/master?p=talks/simple) | [![Docs Badge](https://img.shields.io/badge/try--gitpitch-docs-blueviolet.svg)](talks/simple/README.md) |
-| Advanced | [![GitPitch Badge](https://img.shields.io/badge/gitpitch-slide%20show-brightgreen.svg)](https://gitpitch.com/acdaniells/try-gitpitch/master?p=talks/advanced) | [![Docs Badge](https://img.shields.io/badge/try--gitpitch-docs-blueviolet.svg)](talks/advanced/README.md) |
+| Simple   | [![GitPitch Badge](https://img.shields.io/badge/gitpitch-slide%20show-brightgreen.svg)](https://gitpitch.com/acdaniells/try-gitpitch/master?p=talks/simple) | [![Docs Badge](https://img.shields.io/badge/try%20gitpitch-docs-blueviolet.svg)](talks/simple/README.md) |
+| Advanced | [![GitPitch Badge](https://img.shields.io/badge/gitpitch-slide%20show-brightgreen.svg)](https://gitpitch.com/acdaniells/try-gitpitch/master?p=talks/advanced) | [![Docs Badge](https://img.shields.io/badge/try%20gitpitch-docs-blueviolet.svg)](talks/advanced/README.md) |
 
-# License
+## License
 
 This project by Andrew Daniells is licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
 

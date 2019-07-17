@@ -5,7 +5,6 @@
 
 @snap[south span-60 text-07]
 @fa[twitter] @acdaniells
-
 @fa[github] @acdaniells
 @snapend
 
