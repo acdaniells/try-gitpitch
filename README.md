@@ -10,7 +10,7 @@ This project is for trying out the various free features of the *GitPitch* markd
 
 To get started with this project an account on *GitHub* is required.
 
-<span style="font-size:1.2em;">**Step 1:** Fork this Repository</span>
+<span style="font-size:1.3em;">**Step 1:** Fork this Repository</span>
 
 Forking this repository will create a new `try-gitpitch` repository under your own *GitHub* account. Within your new repository you will find the basic file structure for a *GitPitch* slide show presentation:
 
@@ -27,7 +27,7 @@ Forking this repository will create a new `try-gitpitch` repository under your o
 
 Only a `PITCHME.md` markdown file is required to create a *GitPitch* slide show presentation. This is the file where you add the markdown content for your slides. Optional files, such as `PITCHME.yaml` and `PITCHME.css` can be added to activate custom settings and styles for your slide show.
 
-<span style="font-size:1.2em;">**Step 2:** View the Slide Show</span>
+<span style="font-size:1.3em;">**Step 2:** View the Slide Show</span>
 
 Following a fork of the repository a `PITCHME.md` markdown file will be found in your new repository. This means that your first *GitPitch* slide show is immediately available at the following URL:
 
