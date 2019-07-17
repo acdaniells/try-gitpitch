@@ -1,12 +1,11 @@
 @title[Try GitPitch]
 
-@snap[north span-100]
 ## Try @color[#e49436](Git)Pitch
 ### A collection of sample presentations
-@snapend
 
 @snap[south span-60 text-07]
 @fa[twitter] @acdaniells
+
 @fa[github] @acdaniells
 @snapend
 
@@ -22,6 +21,6 @@
 @box[bg-purple text-white]([Simple](https://gitpitch.com/acdaniells/try-gitpitch/master?p=talks/simple)#A very simple sample presentation.)
 @snapend
 
-@snap[east span-50]
+@snap[south-east span-50]
 @box[bg-orange text-white]([Advanced](https://gitpitch.com/acdaniells/try-gitpitch/master?p=talks/advanced)#A complete demonstration of all the free GitPitch features.)
 @snapend
